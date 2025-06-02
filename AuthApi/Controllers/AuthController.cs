@@ -23,10 +23,10 @@ namespace AuthApi.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                return Ok("Login successful"); // eller returnera token senare
+                return Ok("Login successful"); // add token here later
             }
 
-            return Unauthorized("Invalid credentials");
+            return Unauthorized("Invalid credentils");
         }
     }
 }
